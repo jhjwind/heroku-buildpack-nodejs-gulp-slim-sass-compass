@@ -19,7 +19,7 @@ This task will be called by the compile script. You should build everything and 
 ## Heroku
 
 ```
-heroku config:add BUILDPACK_URL=https://github.com/9elements/heroku-buildpack-nodejs-gulp-haml-sass-compass.git
+heroku config:add BUILDPACK_URL=https://github.com/jhjwind/heroku-buildpack-nodejs-gulp-slim-sass-compass.git
 ```
 
 ## Dokku
@@ -27,7 +27,7 @@ heroku config:add BUILDPACK_URL=https://github.com/9elements/heroku-buildpack-no
 Create a `.env` file with this content to use this custom buildpack
 
 ```
-export BUILDPACK_URL=https://github.com/9elements/heroku-buildpack-nodejs-gulp-haml-sass-compass.git
+export BUILDPACK_URL=https://github.com/jhjwind/heroku-buildpack-nodejs-gulp-slim-sass-compass.git
 ```
 
 ## Serving the Website
